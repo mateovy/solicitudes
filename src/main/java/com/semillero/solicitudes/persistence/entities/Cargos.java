@@ -75,4 +75,7 @@ public class Cargos {
     public void setDsActivo(String dsActivo) {
         this.dsActivo = dsActivo;
     }
+
+    public void setId(Long id) {
+    }
 }

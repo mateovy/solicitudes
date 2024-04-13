@@ -31,7 +31,7 @@ public class Usuario {
     @JoinColumn(name = "nm_rol", referencedColumnName = "nm_id_rol")
     private RolUsuario rolUsuario;
 
-    public Usuario() {}
+    public Usuario(long l, String usuario1, String contraseña1, Date date, String activo, String rol1, Object o) {}
 
     public Long getNmIdUsuario() {
         return nmIdUsuario;

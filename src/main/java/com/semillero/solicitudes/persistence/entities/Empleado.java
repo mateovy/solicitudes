@@ -158,6 +158,8 @@ public class Empleado {
         this.nmCargo = nmCargo;
     }
 
+    public void setId(long l) {
+    }
 }
 
 

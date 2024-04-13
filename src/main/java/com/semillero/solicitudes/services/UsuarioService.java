@@ -11,10 +11,10 @@ import java.util.Date;
 @Service
 public class UsuarioService {
 
-    private final UsuarioRepository usuarioRepository;
+    private UsuarioRepository usuarioRepository = null;
 
     @Autowired
-    public UsuarioService(UsuarioRepository usuarioRepository) {
+    public UsuarioService() {
         this.usuarioRepository = usuarioRepository;
     }
 

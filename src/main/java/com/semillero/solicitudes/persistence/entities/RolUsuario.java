@@ -52,4 +52,6 @@ public class RolUsuario {
         this.feFechaCreacion = feFechaCreacion;
     }
 
+    public void setId(long l) {
+    }
 }

@@ -76,4 +76,7 @@ public class Alerta {
     public void setFeFechaCreacion(Date feFechaCreacion) {
         this.feFechaCreacion = feFechaCreacion;
     }
+
+    public void setId(long l) {
+    }
 }
